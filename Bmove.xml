@@ -8,12 +8,7 @@
           </block>
         </value>
         <next>
-          <block type="movement_leftmotor" id="91" inline="true">
-            <value name="MOVLEFT">
-              <block type="math_number" id="98">
-                <field name="NUM">65000</field>
-              </block>
-            </value>
+          <block type="movement_left" id="108">
             <next>
               <block type="robot_delay" id="57" inline="true">
                 <value name="DELAY">
